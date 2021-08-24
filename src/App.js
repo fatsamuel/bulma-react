@@ -16,16 +16,10 @@ function App () {
 const App = () => {
       return (
 
-
-        
-        
- <div classname="main"> 
+<div classname="main"> 
          
 
-
-
-
-<section class="hero is-success is-fullheight">
+<section class="hero is-primary is-fullheight ">
    Hero head: will stick at the top 
   <div class="hero-head">
     <header class="navbar">
@@ -41,30 +35,33 @@ const App = () => {
         <div id="navbarMenuHeroC" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item is-active">
-              Home
+             Start
             </a>
             <a class="navbar-item">
-              Examples
+              Info
             </a>
             <a class="navbar-item">
-              Documentation
+              Termine
             </a>
-            <span class="navbar-item">
-              <a class="button is-success is-inverted">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Download</span>
-              </a>
-            </span>
+            <a class="navbar-item">
+              Über uns
+            </a>
           </div>
         </div>
       </div>
     </header>
   </div>
 
+ 
+
+
+
+
+
    Hero content: will be in the middle 
   <div class="hero-body">
+
+
     <div class="container has-text-centered">
       <p class="title">
         Title
