@@ -52,8 +52,14 @@ const App = () => {
     </header>
   </div>
 
- 
 
+  <div class="columns">
+  <div class="column"> Test 1</div>
+  <div class="column">Test 2</div>
+  <div class="column">Test 3</div>
+  <div class="column">Test 4</div>
+  <div class="column">Test 5</div>
+</div>
 
 
 
@@ -69,6 +75,16 @@ const App = () => {
       <p class="subtitle">
         Subtitle
       </p>
+      <a class="button">
+  Button 1
+</a>
+<br/>
+<a class="button is-danger is-loading">
+  Button 2
+</a>
+<a class="button is-fullwidth is-black is-large">
+  Button 3
+</a>
     </div>
   </div>
 
