@@ -1,0 +1,7 @@
+$chosenColor: pink; 
+
+button {
+    color: $chosenColor;
+    $size: 5em;
+    $font-stack: Helvetica, sans-serif;
+}
